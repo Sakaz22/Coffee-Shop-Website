@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="icon" type="image/png" href="/Assets/Logo_favicon.png"/>
+    <title>Coffee Shop</title>
+</head>
+<body>
+    <nav class="nav-bar" id="nav-bar-menu">
+        <a href="/processing.html" target="_blank"><li class="nav-list">Processing</li></a>
+            <a href="/menu.html" target="_blank"><li class="nav-list">Menu</li></a>
+            <a href="/home.html"><img src="/Assets/Logo.png" alt="" class="logo"></a>
+            <a id="btnHamburger" href="#" class="span-hb open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <a href="/location.html" target="_blank"><li class="nav-list">Location</li></a>
+            <a href="/contact.html" target="_blank"><li class="nav-list">Contact</li></a>
+            <div id="span-overlay-block">
+                <a href="/processing.html" class="span-overlay" target="_blank"><li class="span-overlay-text">Processing</li></a>               
+                <a href="/menu.html" class="span-overlay" target="_blank"><li class="span-overlay-text">Menu</li></a>                
+                <a href="/location.html" class="span-overlay" target="_blank"><li class="span-overlay-text">Location</li></a>
+                <a href="" class="span-overlay" target="_blank"><li class="span-overlay-text"></li></a>
+            </div>
+    </nav>
+    <div class="windows">
+        <a href="/src/Processing/cherry.html#cherry-harvest-target" class="small-windows">
+                <img src="/Assets/Processing/1_Cherry_Harvest.jpg" alt="" class="coffee">
+                <div class="content">
+                    <p class="windows-text">Cherry Harvest
+                        <span id="windows-org-line"></span>
+                    </p>
+                </div>
+        </a>
+        <a href="/src/Processing/cherry.html#drying-target" class="small-windows">
+            <img src="/Assets/Processing/2_Drying.jpg" alt="" class="coffee">
+            <div class="content">
+                <p class="windows-text">Drying
+                    <span id="windows-org-line"></span>
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <div class="windows">
+        <a href="/src/Processing/cherry.html#roasting-target" class="small-windows">
+                <img src="/Assets/Processing/3_Roasting.jpg" alt="" class="coffee">
+                <div class="content">
+                    <p class="windows-text">Roasting
+                        <span id="windows-org-line"></span>
+                    </p>              
+                </div>
+        </a>
+        <a href="/src/Processing/cherry.html#grinding-target" class="small-windows">
+            <img src="/Assets/Processing/4_Grinding.jpg" alt="" class="coffee">
+            <div class="content">
+                <p class="windows-text">Grinding
+                    <span id="windows-org-line"></span>
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <div class="windows">
+        <a href="/src/Processing/cherry.html#brewing-target" class="small-windows">
+                <img src="/Assets/Processing/5_Brewing.jpg" alt="" class="coffee">
+                <div class="content">
+                    <p class="windows-text">Brewing
+                        <span id="windows-org-line"></span>
+                    </p>
+                </div>
+        </a>
+        <a href="" target="_blank" class="small-windows">
+            <img src="/Assets/Processing/6_Blog.jpg" alt="" class="coffee">
+            <div class="content">
+                <p class="windows-text">Blog
+                    <span id="windows-org-line"></span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <section id="newsletter">
+        <img src="/Assets/Menu/4_Newsletter.jpg" alt="">
+        <div class="newsletter-content">
+            <p class="windows-text-nl" id="heading">Subscribe to our Newsletter</p>
+                <p class="windows-text-nl" id="sub-heading">Each subscription comes with a 10% discount off all products.</p>
+            <div class="inputs">
+                <form name="newsletter" method="POST" data-netlify="true">
+                    <input type="email" name="Email" id="" size="15" maxlength="30" placeholder="Email" class="subscription"/>
+                    <input type="submit" value="JOIN" placeholder="JOIN" class="search">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <footer class="info">
+            <p class="footer-text">2022, The Kaffee Platz</p>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
